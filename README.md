@@ -55,12 +55,12 @@ echo 'fuga';
 ```
 <?php
 $arr = array('hoge', 'fuga');
-$json = json_encode($result);
+$json = json_encode($arr);
 echo json;
 ?>
 ```
 このPHPの実行結果は
-`{'hoge',fuga}`
+`['hoge',fuga]`
 
 いずれの場合もAjaxで取得できる値はPHPの実行結果
 さてJSで使いやすいのはどれだろうか
