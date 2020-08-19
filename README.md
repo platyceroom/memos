@@ -92,3 +92,7 @@ echo json;
 このPHPの実行結果は
 `piyo['hoge',fuga]`
 となるので、JSON形式が崩れて使えない！
+
+↓私のDiscord
+さらみたん#5566
+
