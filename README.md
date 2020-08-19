@@ -6,7 +6,7 @@ XHR(ajax)のリクエスト先のPHPでこういう値を返すようにする
 `'damage'` を上に `'text'`を右下にinnerHTMLで入れたらOK
 ```
 $damage = 123; // randで計算したダメージ数値
-$migi_shita_text = 'text' => 'hogehogeに' . $damage .'を与えた'; //ダメージテキスト
+$migi_shita_text = 'hogehogeに' . $damage .'を与えた'; //ダメージテキスト
 
 $result = array(
   'damage'=> $damage, // ここは適当にダメージを
