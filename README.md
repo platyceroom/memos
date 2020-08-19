@@ -31,7 +31,8 @@ migi_shita = parced_json.text // PHP側で$resultに入れた'text'のことを�
 
 
 
-#ajaxで取得する値について
+# ajaxで取得する値について
+
 まずはAjaxで取得する対象の.phpでechoした場合どうなるか
 echo した文字列がAjaxに入ってくるので、その点に気を付ける必要がある
 ```
