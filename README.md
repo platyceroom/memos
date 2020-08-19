@@ -65,4 +65,30 @@ echo json;
 いずれの場合もAjaxで取得できる値はPHPの実行結果
 さてJSで使いやすいのはどれだろうか
 
+
+# ここまでの結果をjsで利用するためには
+
+```
+value = req.response
+// ↑のPHPを使って仮にこうすると、valueの中身は'{[hoge, fuga]}'(String文字列)になる
+parsed = JSON.parse(value);
+// ↑の中身は['hoge', 'fuga'] (ちゃんとした配列)になる！
+// parsed[0]を使うと'hoge'が取れる
+// 連想配列も同じ
+```
+
 以上、野生のWebエンジニアより
+
+
+## 番外
+```
+<?php
+echo 'piyo';
+$arr = array('hoge', 'fuga');
+$json = json_encode($arr);
+echo json;
+?>
+```
+このPHPの実行結果は
+`piyo['hoge',fuga]`
+となるので、JSON形式が崩れて使えない！
