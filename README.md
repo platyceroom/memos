@@ -15,3 +15,5 @@ $result = array(
 
 echo json_encode($result); // JSON形式にする
 ```
+
+結果的に`{'damage':123,'text':'hogehogeに123を与えた';}`という文字列が'echo'で表示される
