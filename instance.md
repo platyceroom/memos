@@ -2,7 +2,6 @@
 
 ```
 <?php
-// クラスのスコープ
 class Enemy
 {
     public $enemyName = ''; // 擬似変数
@@ -46,7 +45,7 @@ echo $enemy1->enemyName; // ゴブリン
 
 // セットしつつ返すやつ
 echo $enemy1->setAndGetName("オーガ"); //結果は オーガ
-echo $enemy1->enemyName; // オーガ    
+echo $enemy1->enemyName; // オーガ
 
 
 
