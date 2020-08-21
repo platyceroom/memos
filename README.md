@@ -3,8 +3,7 @@
 ### 話しながら伝えるために書いたメモ
 ```
 <?php
-// Your code here!
-
+// クラスのスコープ
 class Hoge
 {
     public function a()
@@ -34,7 +33,7 @@ class Hoge
 
 ```
 <?php
-// Your code here!
+// functionのスコープ
 
 if (false) {
     $a = 'a';
