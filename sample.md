@@ -29,4 +29,9 @@ $skillMaster = array(
 
 // 001などのスキルIDをどこかでまた管理しておき、使いたいIDを渡す
 calcSkill($skillMaster, '001');
+
+
+// ～慣れてきたら～
+// $skillMasterはここで管理しつつHTMLにも同じく埋め込んでおくと
+// 一元管理できるしAjaxで飛ばすIDも取れるよね。
 ```
